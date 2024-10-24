@@ -1,1 +1,28 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --main-font: "Inter";
+  --accent-font: "Press Start 2P";
+
+  --content-font-weight: 400;
+  --title-font-weight: 700;
+
+  --accent-color: #000;
+  --background-color: #fff;
+
+  --button-text-color: #fff;
+
+  /* размеры "ячеек" градиетна */
+  --grad-size: 2px;
+  --grad-size-2x: calc(var(--grad-size) * 2);
+
+  /* цветовая схема градиента */
+  --grad-color: #d3d3d3;
+  --grad-color-start: #e7e7e7 0.01%;
+  --grad-color-end: #1a1a1a;
+
+  --anim-time: 0.3s;
+
+  /* heart */
+  --heart-body-color: red;
+}
