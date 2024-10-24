@@ -205,18 +205,11 @@
   display: flex;
   align-items: center;
   min-height: 33px;
+  border-bottom: 2px solid var(--accent-color);
 }
 
 .card__image {
   position: relative;
-}
-
-.card__title {
-  border-bottom: 2px solid var(--accent-color);
-}
-
-.card__content {
-  border-top: 2px solid var(--accent-color);
 }
 
 .card__image-lable {
@@ -257,6 +250,7 @@
   padding: 25px;
   display: grid;
   gap: 26px;
+  border-top: 2px solid var(--accent-color);
 }
 
 .card__content-description {
