@@ -22,24 +22,9 @@
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
   </head>
   <body class="page">
-    <dialog class="dialog" id="zeecee">
-      <div class="dialog__content-wrapper">
-        <svg viewBox="0 0 39 39">
-          <use href="./images/floppy.svg#dialog-floppy" />
-        </svg>
-        <p class="dialog__description">вставьте дискету, чтобы продолжить</p>
-        <button
-          class="button dialog__button"
-          type="submit"
-          onclick="window['zeecee'].close()"
-        >
-          <span class="button__text">ok</span>
-        </button>
-      </div>
-    </dialog>
     <header class="header">
       <h1 class="header__title">
-        <span class="header__title-logo">&lt;/html&gt;</span><br />
+        <span class="header__title-logo">&lt;/html&gt;</span>
         <span class="header__title-descrtption"> закрывающий тег </span>
       </h1>
       <nav class="theme-menu header__theme-menu">
@@ -87,10 +72,10 @@
               основами и настроиться на учёбу. И, возможно, подумать, как новые
               знания могут повлиять на ваше будущее.
             </p>
-            <p>Место для ваших воспоминаний о начале первого спринта.</p>
+            <p>Место для ваших воспоминаний о начале обучения.</p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg class="like-icon" width="39" height="36">
                 <g class="heart">
                   <path
@@ -140,7 +125,7 @@
             <p>Место для ваших воспоминаний о начале первого спринта.</p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg class="like-icon" width="39" height="36">
                 <g class="heart">
                   <path
@@ -185,10 +170,10 @@
               могла быстро померкнуть и смениться ожиданием провала. Или вы,
               наоборот, могли вдохновиться успехами и поверить в себя.
             </p>
-            <p>Место для ваших воспоминаний о начале первого спринта.</p>
+            <p>Место для ваших воспоминаний об окончании первого спринта.</p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg class="like-icon" width="39" height="36">
                 <g class="heart">
                   <path
@@ -235,10 +220,10 @@
               подвержены перфекционизму и вместо того, чтобы сделать идеально,
               старались просто сделать.
             </p>
-            <p>Место для ваших воспоминаний о начале первого спринта.</p>
+            <p>Место для ваших воспоминаний о начале второго спринта.</p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg class="like-icon" width="39" height="36">
                 <g class="heart">
                   <path
@@ -286,10 +271,10 @@
               поддавался. Осваивать что-то новое легче, когда рядом есть
               единомышленники, не правда ли?
             </p>
-            <p>Место для ваших воспоминаний о начале первого спринта.</p>
+            <p>Место для ваших воспоминаний об окончании второго спринта.</p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg class="like-icon" width="39" height="36">
                 <g class="heart">
                   <path
@@ -334,10 +319,10 @@
               вам могло показаться, что решения просто иссякли. Значит, пришло
               время посмотреть на задачу под другим углом.
             </p>
-            <p>Место для ваших воспоминаний о начале первого спринта.</p>
+            <p>Место для ваших воспоминаний о начале третьего спринта.</p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg class="like-icon" width="39" height="36">
                 <g class="heart">
                   <path
@@ -374,9 +359,6 @@
             src="./images/html_card.png"
             alt="Мобильное кафе на колесах в стиле пиксель арт"
           />
-          <!-- <svg class="card__image-mask" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-            <rect width="100" height="100">
-          </svg> -->
         </div>
         <div class="card__content">
           <div class="card__content-paragraf">
@@ -387,10 +369,10 @@
               пожить. В такие моменты очень нужна концентрация. Вспомните,
               откуда вы её черпали.
             </p>
-            <p>Место для ваших воспоминаний о начале первого спринта.</p>
+            <p>Место для ваших воспоминаний об окончании третьего спринта.</p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg class="like-icon" width="39" height="36">
                 <g class="heart">
                   <path
@@ -438,10 +420,13 @@
               получится, но это тот случай, когда важен сам процесс познания.
               Ведь часто путь — и есть результат.
             </p>
-            <p>Место для ваших воспоминаний о начале первого спринта.</p>
+            <p>
+              Место, чтобы остановиться, подумать и написать, что вы чувствуете
+              в этой точке пути.
+            </p>
           </div>
           <div class="card__buttons">
-            <button class="card__icon-button">
+            <button type="button" class="card__icon-button">
               <svg class="like-icon" width="39" height="36">
                 <g class="heart">
                   <path
@@ -469,10 +454,8 @@
           </div>
         </div>
       </article>
-    </main>
-    <footer class="footer">
       <button
-        class="button footer__button"
+        class="button form__button"
         type="button"
         onclick="window['zeecee'].showModal()"
         aria-controls="zeecee"
@@ -482,7 +465,22 @@
         </svg>
         <span class="button__text"> Сохранить на память </span>
       </button>
-    </footer>
+    </main>
+    <dialog class="dialog" id="zeecee">
+      <div class="dialog__content-wrapper">
+        <svg viewBox="0 0 39 39">
+          <use href="./images/floppy.svg#dialog-floppy" />
+        </svg>
+        <p class="dialog__description">вставьте дискету, чтобы продолжить</p>
+        <button
+          class="button dialog__button"
+          type="submit"
+          onclick="window['zeecee'].close()"
+        >
+          <span class="button__text">ok</span>
+        </button>
+      </div>
+    </dialog>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
