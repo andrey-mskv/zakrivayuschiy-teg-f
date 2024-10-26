@@ -363,6 +363,11 @@
   .card__icon-button svg {
     inset: 0;
   }
+
+  .card__image-lable {
+    right: 11px;
+    top: 23px;
+  }
 }
 
 .contour {
